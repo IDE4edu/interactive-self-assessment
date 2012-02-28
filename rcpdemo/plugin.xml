@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="org.eclipse.ui.actionSets" name="org.eclipse.ui.actionSets" schema="schema/org.eclipse.ui.actionSets.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Sample Action Set"
+            visible="true"
+            id="rcpdemo.actionSet">
+         <menu
+               label="Sample &amp;Menu"
+               id="sampleMenu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+            <groupMarker
+                  name="content">
+            </groupMarker>
+         </menu>
+         <action
+               class="rcpdemo.actions.SampleAction"
+               icon="icons/sample.gif"
+               id="rcpdemo.actions.SampleAction"
+               label="&amp;one"
+               menubarPath="sampleMenu/sampleGroup"
+               style="push"
+               toolbarPath="sampleGroup"
+               tooltip="We&apos;re all awesome.">
+         </action>
+         <menu
+               id="blehhhh"
+               label="Bleh"
+               path="group">
+            <separator
+                  name="group">
+            </separator>
+            <groupMarker
+                  name="rcpdemo.groupMarker3">
+            </groupMarker>
+         </menu>
+         <action
+               class="rcpdemo.actions.SampleAction"
+               icon="icons/sample.gif"
+               id="rcpdemo.action1"
+               label="aksjdf"
+               menubarPath="blehhhh/group"
+               style="pulldown"
+               toolbarPath="group"
+               tooltip="BLEHHH">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
