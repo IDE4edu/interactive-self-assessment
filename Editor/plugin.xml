@@ -4,12 +4,11 @@
    <extension
          point="org.eclipse.ui.editors">
       <editor
-            class="editor.editors.MultiPageEditor"
-            contributorClass="editor.editors.MultiPageEditorContributor"
+            class="edu.berkeley.IDE4edu.isa.editor.JavaEditor"
             default="true"
             extensions="isa"
             icon="icons/isa.png"
-            id="editor.editors.MultiPageEditor"
+            id="edu.berkeley.IDE4edu.isa.editor.JavaEditor"
             name="ISA Editor">
       </editor>
    </extension>
