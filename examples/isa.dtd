@@ -5,12 +5,13 @@
 
 <!ELEMENT filename (#PCDATA)>
 <!ELEMENT hidden (tag)>
-<!ELEMENT textarea (tag)>
+<!ELEMENT textarea (tag,size?)>
 <!ELEMENT textbox (tag,start,end)>
-<!ELEMENT assertion (target,method,params)>
-<!ELEMENT test (target,junit*)>
+<!ELEMENT assertion (method,target,params?)>
+<!ELEMENT test (junit*,target?)>
 
 <!ELEMENT tag (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
 <!ELEMENT start (#PCDATA)>
 <!ELEMENT end (#PCDATA)>
 <!ELEMENT target (#PCDATA)>

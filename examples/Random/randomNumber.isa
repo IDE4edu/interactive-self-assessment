@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE isa SYSTEM "isa.dtd">
+
+<isa>
+	<source>
+		<filename>randomNumber.java</filename>
+	
+		<hidden>
+			<tag>This is some code the student should not see.</tag>
+		</hidden>
+	
+		<textarea name="randomNumber">
+			<tag>Now let's fill in the getRandom() method.  Create a method in the textarea below to return a random double with value [0,1).</tag>
+			<size>2</size>
+		</textarea>
+		
+		<textbox name="mod">
+			<tag>Fill in the textbox below to change that into a random integer with range [1,10].</tag>
+			<start>return getRandom() * </start>
+			<end>;</end>
+		</textbox>
+		
+		<assertion>
+			<method>matchParens</method>
+			<target>randomNumber</target>
+		</assertion>
+		
+		<assertion>
+			<method>semiEveryLine</method>
+			<target>randomNumber</target>
+		</assertion>
+		
+		<assertion>
+			<method>numLines</method>
+			<target>randomNumber</target>
+			<params>&lt;=2</params>
+		</assertion>
+		
+		<test>
+			<junit>randomNumberTest</junit>
+		</test>
+	
+	</source>
+
+</isa>
