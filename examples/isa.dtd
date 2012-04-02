@@ -5,11 +5,12 @@
 
 <!ELEMENT filename (#PCDATA)>
 <!ELEMENT hidden (tag)>
-<!ELEMENT textarea (tag,size?)>
-<!ELEMENT textbox (tag,start,end)>
-<!ELEMENT assertion (method,target,params?)>
+<!ELEMENT textarea (header,size?)>
+<!ELEMENT textbox (header,start,end)>
+<!ELEMENT assertion (method,target,params?,message?)>
 <!ELEMENT test (junit*,target?)>
 
+<!ELEMENT header (#PCDATA)>
 <!ELEMENT tag (#PCDATA)>
 <!ELEMENT size (#PCDATA)>
 <!ELEMENT start (#PCDATA)>
@@ -18,6 +19,7 @@
 <!ELEMENT method (#PCDATA)>
 <!ELEMENT params (#PCDATA)>
 <!ELEMENT junit (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
 
 <!ATTLIST hidden name CDATA #IMPLIED>
 <!ATTLIST textarea name CDATA #REQUIRED>
