@@ -956,7 +956,7 @@
             contributorClass="edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditorActionContributor"
             class="edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor"
             symbolicFontName="org.eclipse.jdt.ui.editors.textfont"
-            id="org.eclipse.jdt.ui.CompilationUnitEditor">
+            id="org.eclipse.jdt.ui.ComilationUnitEditor">
             <contentTypeBinding
                contentTypeId="org.eclipse.jdt.core.javaSource"
             /> 
@@ -6731,4 +6731,22 @@
           </description>
        </transfer>
    </extension>
+  <extension
+        id="edu.berkeley.eduride.isa.contenttype"
+        point="org.eclipse.core.contenttype.contentTypes">
+     <content-type
+           base-type="org.eclipse.core.runtime.xml"
+           file-extensions="isa"
+           id="edu.berkeley.eduride.isa.isafile"
+           name="ISA File Type"
+           priority="normal">
+        <describer
+              class="org.eclipse.core.runtime.content.XMLRootElementContentDescriber2">
+           <parameter
+                 name="element"
+                 value="isa">
+           </parameter>
+        </describer>
+     </content-type>
+  </extension>
 </plugin>
