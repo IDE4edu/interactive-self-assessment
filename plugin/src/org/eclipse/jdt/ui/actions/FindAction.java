@@ -38,21 +38,21 @@ import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.core.search.IJavaSearchScope;
 
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
 
 import org.eclipse.jdt.ui.JavaElementLabelProvider;
 import org.eclipse.jdt.ui.search.ElementQuerySpecification;
 import org.eclipse.jdt.ui.search.QuerySpecification;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.search.JavaSearchQuery;
-import org.eclipse.jdt.internal.ui.search.JavaSearchScopeFactory;
-import org.eclipse.jdt.internal.ui.search.SearchMessages;
-import org.eclipse.jdt.internal.ui.search.SearchUtil;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.search.JavaSearchQuery;
+import edu.berkeley.eduride.isa.ui.search.JavaSearchScopeFactory;
+import edu.berkeley.eduride.isa.ui.search.SearchMessages;
+import edu.berkeley.eduride.isa.ui.search.SearchUtil;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
 
 /**
  * Abstract class for Java search actions.

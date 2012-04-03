@@ -31,9 +31,9 @@ import org.eclipse.jdt.core.IPackageFragmentRoot;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
 
 /**
  * A tree content provider for Java elements. It extends the

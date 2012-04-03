@@ -19,9 +19,9 @@ import org.eclipse.core.runtime.Assert;
 import org.eclipse.jface.resource.CompositeImageDescriptor;
 import org.eclipse.jface.resource.ImageDescriptor;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.packageview.PackageExplorerProblemsDecorator;
 
 /**
  * A {@link JavaElementImageDescriptor} consists of a base image and several adornments. The adornments

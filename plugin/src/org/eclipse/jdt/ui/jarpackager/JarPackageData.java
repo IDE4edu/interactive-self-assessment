@@ -33,14 +33,14 @@ import org.eclipse.ltk.core.refactoring.RefactoringDescriptorProxy;
 import org.eclipse.jdt.core.IPackageFragment;
 import org.eclipse.jdt.core.IType;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation;
-import org.eclipse.jdt.internal.ui.jarpackager.JarPackageReader;
-import org.eclipse.jdt.internal.ui.jarpackager.JarPackageWriter;
-import org.eclipse.jdt.internal.ui.jarpackager.JarPackagerUtil;
-import org.eclipse.jdt.internal.ui.jarpackager.PlainJarBuilder;
-import org.eclipse.jdt.internal.ui.jarpackagerfat.UnpackFatJarBuilder;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarFileExportOperation;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarPackageReader;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarPackageWriter;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarPackagerUtil;
+import edu.berkeley.eduride.isa.ui.jarpackager.PlainJarBuilder;
+import edu.berkeley.eduride.isa.ui.jarpackagerfat.UnpackFatJarBuilder;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
 
 /**
  * Model for a JAR package which stores information used during JAR export and

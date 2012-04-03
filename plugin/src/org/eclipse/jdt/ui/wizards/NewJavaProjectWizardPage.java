@@ -42,12 +42,12 @@ import org.eclipse.jdt.core.IClasspathEntry;
 import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.JavaCore;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.preferences.NewJavaProjectPreferencePage;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
-import org.eclipse.jdt.internal.ui.wizards.IStatusChangeListener;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.preferences.NewJavaProjectPreferencePage;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.ui.wizards.IStatusChangeListener;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.BuildPathsBlock;
 
 /**
  * Standard wizard page for creating new Java projects. This page can be used in

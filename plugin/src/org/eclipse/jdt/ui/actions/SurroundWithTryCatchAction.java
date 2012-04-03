@@ -31,19 +31,19 @@ import org.eclipse.ltk.core.refactoring.RefactoringStatusEntry;
 import org.eclipse.jdt.core.ICompilationUnit;
 import org.eclipse.jdt.core.ISourceRange;
 
-import org.eclipse.jdt.internal.corext.refactoring.base.JavaStatusContext;
-import org.eclipse.jdt.internal.corext.refactoring.surround.SurroundWithTryCatchRefactoring;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
-import org.eclipse.jdt.internal.ui.util.ElementValidator;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter;
+import edu.berkeley.eduride.isa.corext.refactoring.base.JavaStatusContext;
+import edu.berkeley.eduride.isa.corext.refactoring.surround.SurroundWithTryCatchRefactoring;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.actions.WorkbenchRunnableAdapter;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.ui.util.ElementValidator;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.viewsupport.LinkedProposalModelPresenter;
 
 /**
  * Action to surround a set of statements with a try/catch block.

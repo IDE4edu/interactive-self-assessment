@@ -48,12 +48,12 @@ import org.eclipse.jdt.core.ISourceRange;
 import org.eclipse.jdt.core.ISourceReference;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator;
-import org.eclipse.jdt.internal.ui.viewsupport.IProblemChangedListener;
-import org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry;
-import org.eclipse.jdt.internal.ui.viewsupport.ImageImageDescriptor;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.packageview.PackageExplorerProblemsDecorator;
+import edu.berkeley.eduride.isa.ui.viewsupport.IProblemChangedListener;
+import edu.berkeley.eduride.isa.ui.viewsupport.ImageDescriptorRegistry;
+import edu.berkeley.eduride.isa.ui.viewsupport.ImageImageDescriptor;
 
 /**
  * LabelDecorator that decorates an element's image with error and warning overlays that

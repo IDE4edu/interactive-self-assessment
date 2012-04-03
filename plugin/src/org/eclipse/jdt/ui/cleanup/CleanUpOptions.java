@@ -17,7 +17,7 @@ import java.util.Set;
 
 import org.eclipse.core.runtime.Assert;
 
-import org.eclipse.jdt.internal.corext.fix.CleanUpConstants;
+import edu.berkeley.eduride.isa.corext.fix.CleanUpConstants;
 
 
 /**

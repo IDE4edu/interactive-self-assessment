@@ -55,30 +55,30 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.NodeFinder;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.CodeGenerationSettings;
-import org.eclipse.jdt.internal.corext.dom.ASTNodes;
-import org.eclipse.jdt.internal.corext.fix.CleanUpConstants;
-import org.eclipse.jdt.internal.corext.refactoring.base.JavaStatusContext;
-import org.eclipse.jdt.internal.corext.refactoring.util.RefactoringASTParser;
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.ui.JavaUI;
 import org.eclipse.jdt.ui.PreferenceConstants;
 import org.eclipse.jdt.ui.cleanup.CleanUpOptions;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter;
-import org.eclipse.jdt.internal.ui.dialogs.SourceActionDialog;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
-import org.eclipse.jdt.internal.ui.preferences.JavaPreferencesSettings;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
-import org.eclipse.jdt.internal.ui.util.ElementValidator;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.corext.codemanipulation.CodeGenerationSettings;
+import edu.berkeley.eduride.isa.corext.dom.ASTNodes;
+import edu.berkeley.eduride.isa.corext.fix.CleanUpConstants;
+import edu.berkeley.eduride.isa.corext.refactoring.base.JavaStatusContext;
+import edu.berkeley.eduride.isa.corext.refactoring.util.RefactoringASTParser;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.actions.WorkbenchRunnableAdapter;
+import edu.berkeley.eduride.isa.ui.dialogs.SourceActionDialog;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.preferences.JavaPreferencesSettings;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.ui.util.ElementValidator;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
 
 /**
  * An abstract class containing elements common for <code>GenerateHashCodeEqualsAction</code> and 

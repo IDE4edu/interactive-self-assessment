@@ -68,11 +68,11 @@ import org.eclipse.jdt.core.SourceRange;
 
 import org.eclipse.jdt.ui.PreferenceConstants;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.text.DocumentCharacterIterator;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.text.DocumentCharacterIterator;
 
 /**
  * Updates the projection model of a class file or compilation unit.

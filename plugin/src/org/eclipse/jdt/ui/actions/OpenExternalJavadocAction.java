@@ -16,8 +16,8 @@ import org.eclipse.ui.IWorkbenchSite;
 
 import org.eclipse.jdt.core.IJavaElement;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
 
 
 /**

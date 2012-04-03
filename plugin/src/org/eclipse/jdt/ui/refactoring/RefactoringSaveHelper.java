@@ -43,12 +43,12 @@ import org.eclipse.ui.dialogs.ListDialog;
 
 import org.eclipse.jdt.ui.PreferenceConstants;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringSavePreferences;
-import org.eclipse.jdt.internal.ui.util.CoreUtility;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringSavePreferences;
+import edu.berkeley.eduride.isa.ui.util.CoreUtility;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
 
 
 /**

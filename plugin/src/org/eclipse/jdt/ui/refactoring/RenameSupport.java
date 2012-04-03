@@ -37,31 +37,31 @@ import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.ITypeParameter;
 import org.eclipse.jdt.core.refactoring.descriptors.RenameJavaElementDescriptor;
 
-import org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.MethodChecks;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameEnumConstProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameFieldProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameJavaProjectProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameLocalVariableProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameNonVirtualMethodProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenamePackageProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameSourceFolderProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeParameterProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.rename.RenameVirtualMethodProcessor;
-import org.eclipse.jdt.internal.corext.refactoring.tagging.INameUpdating;
-import org.eclipse.jdt.internal.corext.refactoring.tagging.IReferenceUpdating;
-import org.eclipse.jdt.internal.corext.refactoring.tagging.ITextUpdating;
-import org.eclipse.jdt.internal.corext.util.JdtFlags;
 
-import org.eclipse.jdt.internal.ui.JavaUIMessages;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper;
-import org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.RenameRefactoringWizard;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.RenameSelectionState;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceManager;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.JavaRenameProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.MethodChecks;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameCompilationUnitProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameEnumConstProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameFieldProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameJavaProjectProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameLocalVariableProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameNonVirtualMethodProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenamePackageProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameSourceFolderProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameTypeParameterProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameTypeProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.rename.RenameVirtualMethodProcessor;
+import edu.berkeley.eduride.isa.corext.refactoring.tagging.INameUpdating;
+import edu.berkeley.eduride.isa.corext.refactoring.tagging.IReferenceUpdating;
+import edu.berkeley.eduride.isa.corext.refactoring.tagging.ITextUpdating;
+import edu.berkeley.eduride.isa.corext.util.JdtFlags;
+import edu.berkeley.eduride.isa.ui.JavaUIMessages;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringExecutionHelper;
+import edu.berkeley.eduride.isa.ui.refactoring.UserInterfaceStarter;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.RenameRefactoringWizard;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.RenameSelectionState;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.RenameUserInterfaceManager;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.RenameUserInterfaceStarter;
 
 /**
  * Central access point to execute rename refactorings.

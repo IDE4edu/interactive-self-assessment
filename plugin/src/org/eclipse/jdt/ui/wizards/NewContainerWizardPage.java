@@ -46,25 +46,25 @@ import org.eclipse.jdt.core.IPackageFragmentRoot;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.ui.JavaElementComparator;
 import org.eclipse.jdt.ui.JavaElementLabelProvider;
 import org.eclipse.jdt.ui.StandardJavaElementContentProvider;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.dialogs.StatusInfo;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.viewsupport.IViewPartInputProvider;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.TypedElementSelectionValidator;
-import org.eclipse.jdt.internal.ui.wizards.TypedViewerFilter;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.IStringButtonAdapter;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.LayoutUtil;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.StringButtonDialogField;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusInfo;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.viewsupport.IViewPartInputProvider;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.TypedElementSelectionValidator;
+import edu.berkeley.eduride.isa.ui.wizards.TypedViewerFilter;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.IStringButtonAdapter;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.LayoutUtil;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.StringButtonDialogField;
 
 /**
  * Wizard page that acts as a base class for wizard pages that create new Java elements.

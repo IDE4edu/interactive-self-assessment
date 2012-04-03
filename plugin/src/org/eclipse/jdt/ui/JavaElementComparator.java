@@ -41,12 +41,12 @@ import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.core.Signature;
 
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.JdtFlags;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.packageview.PackageFragmentRootContainer;
-import org.eclipse.jdt.internal.ui.preferences.MembersOrderPreferenceCache;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.JdtFlags;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.packageview.PackageFragmentRootContainer;
+import edu.berkeley.eduride.isa.ui.preferences.MembersOrderPreferenceCache;
 
 
 /**

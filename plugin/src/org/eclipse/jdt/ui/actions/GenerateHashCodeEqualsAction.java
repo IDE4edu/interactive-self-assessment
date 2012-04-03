@@ -32,21 +32,21 @@ import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.IVariableBinding;
 import org.eclipse.jdt.core.dom.Modifier;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.CodeGenerationSettings;
-import org.eclipse.jdt.internal.corext.codemanipulation.GenerateHashCodeEqualsOperation;
-import org.eclipse.jdt.internal.corext.dom.TypeRules;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.ui.JavaElementLabels;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.dialogs.GenerateHashCodeEqualsDialog;
-import org.eclipse.jdt.internal.ui.dialogs.SourceActionDialog;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.viewsupport.BindingLabelProvider;
+import edu.berkeley.eduride.isa.corext.codemanipulation.CodeGenerationSettings;
+import edu.berkeley.eduride.isa.corext.codemanipulation.GenerateHashCodeEqualsOperation;
+import edu.berkeley.eduride.isa.corext.dom.TypeRules;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.dialogs.GenerateHashCodeEqualsDialog;
+import edu.berkeley.eduride.isa.ui.dialogs.SourceActionDialog;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.viewsupport.BindingLabelProvider;
 
 /**
  * Adds method implementations for

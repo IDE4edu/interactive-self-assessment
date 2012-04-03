@@ -32,20 +32,20 @@ import org.eclipse.jdt.core.IMember;
 import org.eclipse.jdt.core.IMethod;
 import org.eclipse.jdt.core.IType;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.AddJavaDocStubOperation;
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
 
 import org.eclipse.jdt.ui.JavaUI;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.util.ElementValidator;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.corext.codemanipulation.AddJavaDocStubOperation;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.actions.WorkbenchRunnableAdapter;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.util.ElementValidator;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
 
 /**
  * Create Javadoc comment stubs for the selected members.

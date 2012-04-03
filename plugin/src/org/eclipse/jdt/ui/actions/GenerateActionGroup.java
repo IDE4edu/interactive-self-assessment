@@ -43,14 +43,14 @@ import org.eclipse.ui.texteditor.IUpdate;
 
 import org.eclipse.jdt.ui.IContextMenuConstants;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.AddTaskAction;
-import org.eclipse.jdt.internal.ui.actions.AllCleanUpsAction;
-import org.eclipse.jdt.internal.ui.actions.FindBrokenNLSKeysAction;
-import org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator;
-import org.eclipse.jdt.internal.ui.actions.MultiSortMembersAction;
-import org.eclipse.jdt.internal.ui.javaeditor.AddImportOnSelectionAction;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.AddTaskAction;
+import edu.berkeley.eduride.isa.ui.actions.AllCleanUpsAction;
+import edu.berkeley.eduride.isa.ui.actions.FindBrokenNLSKeysAction;
+import edu.berkeley.eduride.isa.ui.actions.JDTQuickMenuCreator;
+import edu.berkeley.eduride.isa.ui.actions.MultiSortMembersAction;
+import edu.berkeley.eduride.isa.ui.javaeditor.AddImportOnSelectionAction;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
 
 
 /**

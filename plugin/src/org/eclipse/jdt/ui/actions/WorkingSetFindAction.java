@@ -17,8 +17,8 @@ import org.eclipse.ui.PlatformUI;
 
 import org.eclipse.jdt.core.IJavaElement;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
 
 /**
  * Wraps a <code>JavaElementSearchActions</code> to find its results

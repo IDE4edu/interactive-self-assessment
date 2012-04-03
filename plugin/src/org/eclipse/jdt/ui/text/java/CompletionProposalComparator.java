@@ -15,7 +15,7 @@ import java.util.Comparator;
 import org.eclipse.jface.text.contentassist.ICompletionProposal;
 import org.eclipse.jface.text.templates.TemplateProposal;
 
-import org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.AbstractJavaCompletionProposal;
 
 /**
  * Comparator for java completion proposals. Completion proposals can be sorted by relevance or

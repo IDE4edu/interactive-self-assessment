@@ -25,15 +25,15 @@ import org.eclipse.jdt.core.ICompilationUnit;
 import org.eclipse.jdt.core.ITypeRoot;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.eclipse.jdt.internal.corext.refactoring.util.RefactoringASTParser;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
-import org.eclipse.jdt.internal.ui.refactoring.actions.InlineConstantAction;
-import org.eclipse.jdt.internal.ui.refactoring.actions.InlineMethodAction;
+import edu.berkeley.eduride.isa.corext.refactoring.util.RefactoringASTParser;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.refactoring.actions.InlineConstantAction;
+import edu.berkeley.eduride.isa.ui.refactoring.actions.InlineMethodAction;
 
 /**
  * Inlines a method, local variable or a static final field.

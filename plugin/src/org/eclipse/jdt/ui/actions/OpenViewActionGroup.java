@@ -32,9 +32,9 @@ import org.eclipse.ui.part.Page;
 
 import org.eclipse.jdt.ui.IContextMenuConstants;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.callhierarchy.OpenCallHierarchyAction;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.callhierarchy.OpenCallHierarchyAction;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
 
 /**
  * Action group that adds actions to open a new JDT view part or an external
@@ -119,8 +119,8 @@ public class OpenViewActionGroup extends ActionGroup {
 		createSiteActions(part.getSite(), selectionProvider);
 		// we do a name check here to avoid class loading.
 		String partName= part.getClass().getName();
-		fIsTypeHiararchyViewerOwner= "org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart".equals(partName); //$NON-NLS-1$
-		fIsCallHiararchyViewerOwner= "org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyViewPart".equals(partName); //$NON-NLS-1$
+		fIsTypeHiararchyViewerOwner= "edu.berkeley.eduride.isa.ui.typehierarchy.TypeHierarchyViewPart".equals(partName); //$NON-NLS-1$
+		fIsCallHiararchyViewerOwner= "edu.berkeley.eduride.isa.ui.callhierarchy.CallHierarchyViewPart".equals(partName); //$NON-NLS-1$
 	}
 
 	/**

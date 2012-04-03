@@ -20,16 +20,16 @@ import org.eclipse.jdt.core.CompletionProposal;
 import org.eclipse.jdt.core.Flags;
 import org.eclipse.jdt.core.Signature;
 
-import org.eclipse.jdt.internal.corext.template.java.SignatureUtil;
-import org.eclipse.jdt.internal.corext.util.Messages;
-import org.eclipse.jdt.internal.corext.util.Strings;
 
 import org.eclipse.jdt.ui.JavaElementImageDescriptor;
 import org.eclipse.jdt.ui.JavaElementLabels;
 
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.viewsupport.JavaElementImageProvider;
+import edu.berkeley.eduride.isa.corext.template.java.SignatureUtil;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.corext.util.Strings;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.viewsupport.JavaElementImageProvider;
 
 
 /**

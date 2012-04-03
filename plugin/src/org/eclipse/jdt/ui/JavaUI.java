@@ -45,21 +45,21 @@ import org.eclipse.jdt.core.search.IJavaSearchConstants;
 import org.eclipse.jdt.core.search.IJavaSearchScope;
 import org.eclipse.jdt.core.search.SearchEngine;
 
-import org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations;
-import org.eclipse.jdt.internal.corext.refactoring.reorg.JavaElementTransfer;
 
 import org.eclipse.jdt.ui.dialogs.TypeSelectionExtension;
 import org.eclipse.jdt.ui.text.IColorManager;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaUIMessages;
-import org.eclipse.jdt.internal.ui.SharedImages;
-import org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog;
-import org.eclipse.jdt.internal.ui.dialogs.MainTypeSelectionDialog;
-import org.eclipse.jdt.internal.ui.dialogs.MultiMainTypeSelectionDialog;
-import org.eclipse.jdt.internal.ui.dialogs.PackageSelectionDialog;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.corext.javadoc.JavaDocLocations;
+import edu.berkeley.eduride.isa.corext.refactoring.reorg.JavaElementTransfer;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaUIMessages;
+import edu.berkeley.eduride.isa.ui.SharedImages;
+import edu.berkeley.eduride.isa.ui.dialogs.FilteredTypesSelectionDialog;
+import edu.berkeley.eduride.isa.ui.dialogs.MainTypeSelectionDialog;
+import edu.berkeley.eduride.isa.ui.dialogs.MultiMainTypeSelectionDialog;
+import edu.berkeley.eduride.isa.ui.dialogs.PackageSelectionDialog;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
 
 /**
  * Central access point for the Java UI plug-in (id <code>"org.eclipse.jdt.ui"</code>).

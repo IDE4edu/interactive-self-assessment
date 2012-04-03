@@ -51,12 +51,12 @@ import org.eclipse.ui.actions.ActionGroup;
 
 import org.eclipse.jdt.core.IJavaModel;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.filters.CustomFiltersDialog;
-import org.eclipse.jdt.internal.ui.filters.FilterDescriptor;
-import org.eclipse.jdt.internal.ui.filters.FilterMessages;
-import org.eclipse.jdt.internal.ui.filters.NamePatternFilter;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.filters.CustomFiltersDialog;
+import edu.berkeley.eduride.isa.ui.filters.FilterDescriptor;
+import edu.berkeley.eduride.isa.ui.filters.FilterMessages;
+import edu.berkeley.eduride.isa.ui.filters.NamePatternFilter;
 
 /**
  * Action group to add the filter action to a view part's tool bar

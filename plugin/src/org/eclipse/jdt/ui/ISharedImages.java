@@ -15,7 +15,7 @@ import org.eclipse.swt.graphics.Image;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
 
 /**
  * Standard images provided by the Java UI plug-in. This class offers access to the

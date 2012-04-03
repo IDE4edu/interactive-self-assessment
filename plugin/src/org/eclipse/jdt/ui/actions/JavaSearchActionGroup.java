@@ -30,8 +30,8 @@ import org.eclipse.ui.texteditor.ITextEditorActionConstants;
 
 import org.eclipse.jdt.ui.PreferenceConstants;
 
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.search.SearchMessages;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.search.SearchMessages;
 
 /**
  * Action group that adds the Java search actions to a context menu and

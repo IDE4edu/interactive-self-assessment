@@ -14,8 +14,8 @@ import org.eclipse.core.runtime.IStatus;
 
 import org.eclipse.jface.wizard.WizardPage;
 
-import org.eclipse.jdt.internal.ui.dialogs.StatusInfo;
-import org.eclipse.jdt.internal.ui.dialogs.StatusUtil;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusInfo;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusUtil;
 
 /**
  * Base class for wizard page responsible to create Java elements. The class

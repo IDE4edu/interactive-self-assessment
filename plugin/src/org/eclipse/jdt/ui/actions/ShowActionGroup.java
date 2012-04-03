@@ -23,8 +23,8 @@ import org.eclipse.ui.part.Page;
 
 import org.eclipse.jdt.ui.IContextMenuConstants;
 
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.packageview.PackageExplorerPart;
 
 /**
  * Action group that adds the show actions to a context menu and the action bar's navigate menu.

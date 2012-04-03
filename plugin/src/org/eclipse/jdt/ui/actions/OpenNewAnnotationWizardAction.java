@@ -20,11 +20,11 @@ import org.eclipse.ui.PlatformUI;
 
 import org.eclipse.jdt.ui.wizards.NewAnnotationWizardPage;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.wizards.NewAnnotationCreationWizard;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.wizards.NewAnnotationCreationWizard;
 
 /**
 * <p>Action that opens the new annotation wizard.The action initialized the wizard with either the selection

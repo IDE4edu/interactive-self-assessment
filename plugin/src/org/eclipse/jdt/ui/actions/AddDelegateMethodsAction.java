@@ -61,35 +61,35 @@ import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.IVariableBinding;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.AddDelegateMethodsOperation;
-import org.eclipse.jdt.internal.corext.codemanipulation.CodeGenerationSettings;
-import org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2;
-import org.eclipse.jdt.internal.corext.codemanipulation.AddDelegateMethodsOperation.DelegateEntry;
-import org.eclipse.jdt.internal.corext.dom.ASTNodes;
-import org.eclipse.jdt.internal.corext.refactoring.structure.ASTNodeSearchUtil;
-import org.eclipse.jdt.internal.corext.refactoring.util.JavaElementUtil;
-import org.eclipse.jdt.internal.corext.template.java.CodeTemplateContextType;
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.JdtFlags;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.ui.JavaUI;
 import org.eclipse.jdt.ui.SharedASTProvider;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter;
-import org.eclipse.jdt.internal.ui.dialogs.SourceActionDialog;
-import org.eclipse.jdt.internal.ui.dialogs.StatusInfo;
-import org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor;
-import org.eclipse.jdt.internal.ui.preferences.JavaPreferencesSettings;
-import org.eclipse.jdt.internal.ui.util.BusyIndicatorRunnableContext;
-import org.eclipse.jdt.internal.ui.util.ElementValidator;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.viewsupport.BindingLabelProvider;
+import edu.berkeley.eduride.isa.corext.codemanipulation.AddDelegateMethodsOperation;
+import edu.berkeley.eduride.isa.corext.codemanipulation.CodeGenerationSettings;
+import edu.berkeley.eduride.isa.corext.codemanipulation.StubUtility2;
+import edu.berkeley.eduride.isa.corext.codemanipulation.AddDelegateMethodsOperation.DelegateEntry;
+import edu.berkeley.eduride.isa.corext.dom.ASTNodes;
+import edu.berkeley.eduride.isa.corext.refactoring.structure.ASTNodeSearchUtil;
+import edu.berkeley.eduride.isa.corext.refactoring.util.JavaElementUtil;
+import edu.berkeley.eduride.isa.corext.template.java.CodeTemplateContextType;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.JdtFlags;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.actions.WorkbenchRunnableAdapter;
+import edu.berkeley.eduride.isa.ui.dialogs.SourceActionDialog;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusInfo;
+import edu.berkeley.eduride.isa.ui.javaeditor.CompilationUnitEditor;
+import edu.berkeley.eduride.isa.ui.preferences.JavaPreferencesSettings;
+import edu.berkeley.eduride.isa.ui.util.BusyIndicatorRunnableContext;
+import edu.berkeley.eduride.isa.ui.util.ElementValidator;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.viewsupport.BindingLabelProvider;
 
 /**
  * Creates delegate methods for a type's fields. Opens a dialog with a list of fields for
@@ -244,7 +244,7 @@ public class AddDelegateMethodsAction extends SelectionDispatchAction {
 		}
 
 		/*
-		 * @see org.eclipse.jdt.internal.ui.dialogs.SourceActionDialog#createLinkControl(org.eclipse.swt.widgets.Composite)
+		 * @see edu.berkeley.eduride.isa.ui.dialogs.SourceActionDialog#createLinkControl(org.eclipse.swt.widgets.Composite)
 		 */
 		protected Control createLinkControl(Composite composite) {
 			Link link= new Link(composite, SWT.WRAP);

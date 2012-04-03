@@ -54,14 +54,14 @@ import org.eclipse.jdt.core.ITypeRoot;
 import org.eclipse.jdt.ui.IContextMenuConstants;
 import org.eclipse.jdt.ui.JavaUI;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.ExtractSuperClassAction;
-import org.eclipse.jdt.internal.ui.actions.IntroduceParameterObjectAction;
-import org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaTextSelection;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.ExtractSuperClassAction;
+import edu.berkeley.eduride.isa.ui.actions.IntroduceParameterObjectAction;
+import edu.berkeley.eduride.isa.ui.actions.JDTQuickMenuCreator;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaTextSelection;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
 
 
 /**

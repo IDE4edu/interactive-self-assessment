@@ -24,9 +24,9 @@ import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.JavaConventions;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.refactoring.changes.ClasspathChange;
 
-import org.eclipse.jdt.internal.ui.text.correction.ClasspathFixProcessorDescriptor;
+import edu.berkeley.eduride.isa.corext.refactoring.changes.ClasspathChange;
+import edu.berkeley.eduride.isa.ui.text.correction.ClasspathFixProcessorDescriptor;
 
 
 /**

@@ -15,6 +15,25 @@ import java.util.Comparator;
 
 import com.ibm.icu.text.Collator;
 
+import edu.berkeley.eduride.isa.corext.codemanipulation.CodeGenerationSettings;
+import edu.berkeley.eduride.isa.corext.codemanipulation.OrganizeImportsOperation;
+import edu.berkeley.eduride.isa.corext.codemanipulation.OrganizeImportsOperation.IChooseImportQuery;
+import edu.berkeley.eduride.isa.corext.util.History;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.corext.util.QualifiedTypeNameHistory;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.MultiOrganizeImportAction;
+import edu.berkeley.eduride.isa.ui.actions.WorkbenchRunnableAdapter;
+import edu.berkeley.eduride.isa.ui.dialogs.MultiElementListSelectionDialog;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.preferences.JavaPreferencesSettings;
+import edu.berkeley.eduride.isa.ui.util.ElementValidator;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.util.TypeNameMatchLabelProvider;
+
 import org.eclipse.core.runtime.Assert;
 
 import org.eclipse.jface.action.IAction;
@@ -49,28 +68,10 @@ import org.eclipse.jdt.core.compiler.IProblem;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.search.TypeNameMatch;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.CodeGenerationSettings;
-import org.eclipse.jdt.internal.corext.codemanipulation.OrganizeImportsOperation;
-import org.eclipse.jdt.internal.corext.codemanipulation.OrganizeImportsOperation.IChooseImportQuery;
-import org.eclipse.jdt.internal.corext.util.History;
-import org.eclipse.jdt.internal.corext.util.Messages;
-import org.eclipse.jdt.internal.corext.util.QualifiedTypeNameHistory;
 
 import org.eclipse.jdt.ui.JavaUI;
 import org.eclipse.jdt.ui.SharedASTProvider;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.MultiOrganizeImportAction;
-import org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter;
-import org.eclipse.jdt.internal.ui.dialogs.MultiElementListSelectionDialog;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.preferences.JavaPreferencesSettings;
-import org.eclipse.jdt.internal.ui.util.ElementValidator;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.util.TypeNameMatchLabelProvider;
 
 /**
  * Organizes the imports of a compilation unit.

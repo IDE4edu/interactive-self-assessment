@@ -39,21 +39,21 @@ import org.eclipse.jdt.core.IClasspathEntry;
 import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.JavaCore;
 
-import org.eclipse.jdt.internal.corext.fix.CleanUpConstants;
 
 import org.eclipse.jdt.ui.text.IJavaColorConstants;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaUIPreferenceInitializer;
-import org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyContentProvider;
-import org.eclipse.jdt.internal.ui.callhierarchy.ExpandWithConstructorsConfigurationBlock;
-import org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings;
-import org.eclipse.jdt.internal.ui.preferences.NewJavaProjectPreferencePage;
-import org.eclipse.jdt.internal.ui.preferences.formatter.FormatterProfileManager;
-import org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerRegistry;
-import org.eclipse.jdt.internal.ui.text.java.ProposalSorterRegistry;
-import org.eclipse.jdt.internal.ui.text.spelling.SpellCheckEngine;
-import org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer;
+import edu.berkeley.eduride.isa.corext.fix.CleanUpConstants;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaUIPreferenceInitializer;
+import edu.berkeley.eduride.isa.ui.callhierarchy.CallHierarchyContentProvider;
+import edu.berkeley.eduride.isa.ui.callhierarchy.ExpandWithConstructorsConfigurationBlock;
+import edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings;
+import edu.berkeley.eduride.isa.ui.preferences.NewJavaProjectPreferencePage;
+import edu.berkeley.eduride.isa.ui.preferences.formatter.FormatterProfileManager;
+import edu.berkeley.eduride.isa.ui.text.java.CompletionProposalComputerRegistry;
+import edu.berkeley.eduride.isa.ui.text.java.ProposalSorterRegistry;
+import edu.berkeley.eduride.isa.ui.text.spelling.SpellCheckEngine;
+import edu.berkeley.eduride.isa.ui.viewsupport.JavaElementLabelComposer;
 
 
 /**
@@ -1516,7 +1516,7 @@ public class PreferenceConstants {
 	 * @see org.eclipse.jface.resource.StringConverter
 	 * @see org.eclipse.jface.preference.PreferenceConverter
 	 * @since 3.0
-	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#METHOD}
+	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#METHOD}
 	 */
 	public final static String EDITOR_JAVA_METHOD_NAME_COLOR= IJavaColorConstants.JAVA_METHOD_NAME;
 
@@ -1527,7 +1527,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.0
-	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#METHOD}
+	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#METHOD}
 	 */
 	public final static String EDITOR_JAVA_METHOD_NAME_BOLD= IJavaColorConstants.JAVA_METHOD_NAME + EDITOR_BOLD_SUFFIX;
 
@@ -1538,7 +1538,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.0
-	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#METHOD}
+	 * @deprecated the method name highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#METHOD}
 	 */
 	public final static String EDITOR_JAVA_METHOD_NAME_ITALIC= IJavaColorConstants.JAVA_METHOD_NAME + EDITOR_ITALIC_SUFFIX;
 
@@ -1711,7 +1711,7 @@ public class PreferenceConstants {
 	 * @see org.eclipse.jface.resource.StringConverter
 	 * @see org.eclipse.jface.preference.PreferenceConverter
 	 * @since 3.1
-	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#ANNOTATION}
+	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#ANNOTATION}
 	 */
 	public final static String EDITOR_JAVA_ANNOTATION_COLOR= IJavaColorConstants.JAVA_ANNOTATION;
 
@@ -1722,7 +1722,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.1
-	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#ANNOTATION}
+	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#ANNOTATION}
 	 */
 	public final static String EDITOR_JAVA_ANNOTATION_BOLD= IJavaColorConstants.JAVA_ANNOTATION + EDITOR_BOLD_SUFFIX;
 
@@ -1733,7 +1733,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.1
-	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#ANNOTATION}
+	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#ANNOTATION}
 	 */
 	public final static String EDITOR_JAVA_ANNOTATION_ITALIC= IJavaColorConstants.JAVA_ANNOTATION + EDITOR_ITALIC_SUFFIX;
 
@@ -1744,7 +1744,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.1
-	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#ANNOTATION}
+	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#ANNOTATION}
 	 */
 	public final static String EDITOR_JAVA_ANNOTATION_STRIKETHROUGH= IJavaColorConstants.JAVA_ANNOTATION + EDITOR_STRIKETHROUGH_SUFFIX;
 
@@ -1755,7 +1755,7 @@ public class PreferenceConstants {
 	 * </p>
 	 *
 	 * @since 3.1
-	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightings#ANNOTATION}
+	 * @deprecated the annotation highlighting has been replaced by a semantic highlighting, see {@link edu.berkeley.eduride.isa.ui.javaeditor.SemanticHighlightings#ANNOTATION}
 	 */
 	public final static String EDITOR_JAVA_ANNOTATION_UNDERLINE= IJavaColorConstants.JAVA_ANNOTATION + EDITOR_UNDERLINE_SUFFIX;
 
@@ -3567,7 +3567,7 @@ public class PreferenceConstants {
 	 * Value is an XML encoded version of the history.
 	 * </p>
 	 *
-	 * @see org.eclipse.jdt.internal.ui.text.java.ContentAssistHistory#load(org.eclipse.core.runtime.Preferences, String)
+	 * @see edu.berkeley.eduride.isa.ui.text.java.ContentAssistHistory#load(org.eclipse.core.runtime.Preferences, String)
 	 * @since 3.2
 	 */
 	public static final String CODEASSIST_LRU_HISTORY= "content_assist_lru_history"; //$NON-NLS-1$

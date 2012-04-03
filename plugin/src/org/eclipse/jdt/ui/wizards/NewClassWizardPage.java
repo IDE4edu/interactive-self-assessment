@@ -32,11 +32,11 @@ import org.eclipse.jdt.core.Signature;
 
 import org.eclipse.jdt.ui.CodeGeneration;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.LayoutUtil;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.SelectionButtonDialogFieldGroup;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.LayoutUtil;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.SelectionButtonDialogFieldGroup;
 
 /**
  * Wizard page to  create a new class.

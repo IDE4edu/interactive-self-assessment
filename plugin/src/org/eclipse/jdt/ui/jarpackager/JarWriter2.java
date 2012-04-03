@@ -36,12 +36,12 @@ import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.ResourcesPlugin;
 
-import org.eclipse.jdt.internal.corext.util.Messages;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.jarpackager.JarPackagerMessages;
-import org.eclipse.jdt.internal.ui.jarpackager.JarPackagerUtil;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarPackagerMessages;
+import edu.berkeley.eduride.isa.ui.jarpackager.JarPackagerUtil;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
 
 /**
  * Creates a JAR file for the given JAR package data.

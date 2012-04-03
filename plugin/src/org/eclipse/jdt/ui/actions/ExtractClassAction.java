@@ -22,16 +22,16 @@ import org.eclipse.jdt.core.IJavaElement;
 import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.refactoring.RefactoringAvailabilityTester;
-import org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter;
 
-import org.eclipse.jdt.internal.ui.actions.ActionUtil;
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaTextSelection;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
-import org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringActions;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.corext.refactoring.RefactoringAvailabilityTester;
+import edu.berkeley.eduride.isa.corext.refactoring.RefactoringExecutionStarter;
+import edu.berkeley.eduride.isa.ui.actions.ActionUtil;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaTextSelection;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.refactoring.actions.RefactoringActions;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
 
 /**
  * Extracts selected fields into a new class and replaces the fields with a new field to the new class.

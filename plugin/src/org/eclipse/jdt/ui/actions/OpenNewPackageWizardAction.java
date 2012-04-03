@@ -20,10 +20,10 @@ import org.eclipse.ui.PlatformUI;
 
 import org.eclipse.jdt.ui.wizards.NewPackageWizardPage;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.wizards.NewPackageCreationWizard;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.wizards.NewPackageCreationWizard;
 
 /**
  * <p>Action that opens the new package wizard. The action initializes the wizard with the

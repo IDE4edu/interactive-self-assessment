@@ -34,10 +34,10 @@ import org.eclipse.ui.actions.NewProjectAction;
 
 import org.eclipse.jdt.core.IJavaElement;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.wizards.NewElementWizard;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.wizards.NewElementWizard;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
 
 
 /**

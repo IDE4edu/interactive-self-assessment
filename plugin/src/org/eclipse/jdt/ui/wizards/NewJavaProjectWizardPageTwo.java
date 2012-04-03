@@ -56,16 +56,16 @@ import org.eclipse.jdt.core.IClasspathEntry;
 import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.JavaCore;
 
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.ui.JavaUI;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.dialogs.StatusInfo;
-import org.eclipse.jdt.internal.ui.util.CoreUtility;
-import org.eclipse.jdt.internal.ui.util.ExceptionHandler;
-import org.eclipse.jdt.internal.ui.wizards.ClassPathDetector;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusInfo;
+import edu.berkeley.eduride.isa.ui.util.CoreUtility;
+import edu.berkeley.eduride.isa.ui.util.ExceptionHandler;
+import edu.berkeley.eduride.isa.ui.wizards.ClassPathDetector;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
 
 /**
  * The second page of the New Java project wizard. It allows to configure the build path and output location.

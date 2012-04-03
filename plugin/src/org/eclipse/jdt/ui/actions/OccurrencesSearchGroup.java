@@ -35,10 +35,10 @@ import org.eclipse.jdt.core.ITypeRoot;
 import org.eclipse.jdt.ui.IContextMenuConstants;
 import org.eclipse.jdt.ui.JavaUI;
 
-import org.eclipse.jdt.internal.ui.actions.SelectionConverter;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaTextSelection;
-import org.eclipse.jdt.internal.ui.search.SearchMessages;
+import edu.berkeley.eduride.isa.ui.actions.SelectionConverter;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaTextSelection;
+import edu.berkeley.eduride.isa.ui.search.SearchMessages;
 
 /**
  * Action group that adds the occurrences in file actions

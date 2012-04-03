@@ -66,8 +66,6 @@ import org.eclipse.ui.dialogs.WorkingSetConfigurationBlock;
 import org.eclipse.jdt.core.IClasspathEntry;
 import org.eclipse.jdt.core.JavaCore;
 
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
 import org.eclipse.jdt.launching.IVMInstall;
 import org.eclipse.jdt.launching.IVMInstall2;
@@ -79,24 +77,26 @@ import org.eclipse.jdt.launching.environments.IExecutionEnvironment;
 import org.eclipse.jdt.ui.JavaUI;
 import org.eclipse.jdt.ui.PreferenceConstants;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart;
-import org.eclipse.jdt.internal.ui.preferences.CompliancePreferencePage;
-import org.eclipse.jdt.internal.ui.preferences.NewJavaProjectPreferencePage;
-import org.eclipse.jdt.internal.ui.preferences.PropertyAndPreferencePage;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathSupport;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.ComboDialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.IStringButtonAdapter;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.LayoutUtil;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.SelectionButtonDialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.StringButtonDialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.StringDialogField;
-import org.eclipse.jdt.internal.ui.workingsets.IWorkingSetIDs;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.packageview.PackageExplorerPart;
+import edu.berkeley.eduride.isa.ui.preferences.CompliancePreferencePage;
+import edu.berkeley.eduride.isa.ui.preferences.NewJavaProjectPreferencePage;
+import edu.berkeley.eduride.isa.ui.preferences.PropertyAndPreferencePage;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.BuildPathSupport;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.ComboDialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.IStringButtonAdapter;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.LayoutUtil;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.SelectionButtonDialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.StringButtonDialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.StringDialogField;
+import edu.berkeley.eduride.isa.ui.workingsets.IWorkingSetIDs;
 
 /**
  * The first page of the New Java Project wizard. This page is typically used in combination with
@@ -155,7 +155,7 @@ public class NewJavaProjectWizardPageOne extends WizardPage {
 		}
 
 		/* (non-Javadoc)
-		 * @see org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField)
+		 * @see edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField)
 		 */
 		public void dialogFieldChanged(DialogField field) {
 			fireEvent();
@@ -246,7 +246,7 @@ public class NewJavaProjectWizardPageOne extends WizardPage {
 		}
 
 		/* (non-Javadoc)
-		 * @see org.eclipse.jdt.internal.ui.wizards.dialogfields.IStringButtonAdapter#changeControlPressed(org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField)
+		 * @see edu.berkeley.eduride.isa.ui.wizards.dialogfields.IStringButtonAdapter#changeControlPressed(edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField)
 		 */
 		public void changeControlPressed(DialogField field) {
 			final DirectoryDialog dialog= new DirectoryDialog(getShell());
@@ -277,7 +277,7 @@ public class NewJavaProjectWizardPageOne extends WizardPage {
 		}
 
 		/* (non-Javadoc)
-		 * @see org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField)
+		 * @see edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField)
 		 */
 		public void dialogFieldChanged(DialogField field) {
 			if (field == fUseDefaults) {
@@ -659,7 +659,7 @@ public class NewJavaProjectWizardPageOne extends WizardPage {
 		}
 
 		/* (non-Javadoc)
-		 * @see org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField)
+		 * @see edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener#dialogFieldChanged(edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField)
 		 */
 		public void dialogFieldChanged(DialogField field) {
 			updateEnableState();

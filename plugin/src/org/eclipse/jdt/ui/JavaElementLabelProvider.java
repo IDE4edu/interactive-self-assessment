@@ -18,8 +18,8 @@ import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.StyledString;
 import org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.IStyledLabelProvider;
 
-import org.eclipse.jdt.internal.ui.viewsupport.JavaElementImageProvider;
-import org.eclipse.jdt.internal.ui.viewsupport.StorageLabelProvider;
+import edu.berkeley.eduride.isa.ui.viewsupport.JavaElementImageProvider;
+import edu.berkeley.eduride.isa.ui.viewsupport.StorageLabelProvider;
 
 /**
  * Standard label provider for Java elements.

@@ -31,8 +31,8 @@ import org.eclipse.ui.actions.OpenWithMenu;
 
 import org.eclipse.jdt.ui.IContextMenuConstants;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
 
 /**
  * Action group that adds the actions opening a new editor to the

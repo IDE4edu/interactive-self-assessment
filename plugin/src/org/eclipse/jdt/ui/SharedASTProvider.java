@@ -18,7 +18,7 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.rewrite.ASTRewrite;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
 
 
 /**

@@ -18,8 +18,8 @@ import org.eclipse.jdt.core.IMethod;
 import org.eclipse.jdt.core.dom.IMethodBinding;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 
-import org.eclipse.jdt.internal.corext.codemanipulation.StubUtility;
-import org.eclipse.jdt.internal.corext.template.java.CodeTemplateContextType;
+import edu.berkeley.eduride.isa.corext.codemanipulation.StubUtility;
+import edu.berkeley.eduride.isa.corext.template.java.CodeTemplateContextType;
 
 /**
  * Class that offers access to the templates contained in the 'code templates' preference page.

@@ -23,12 +23,12 @@ import org.eclipse.jface.text.rules.FastPartitioner;
 import org.eclipse.jface.text.rules.IPartitionTokenScanner;
 import org.eclipse.jface.text.rules.RuleBasedScanner;
 
-import org.eclipse.jdt.internal.ui.text.FastJavaPartitionScanner;
-import org.eclipse.jdt.internal.ui.text.JavaColorManager;
-import org.eclipse.jdt.internal.ui.text.JavaCommentScanner;
-import org.eclipse.jdt.internal.ui.text.SingleTokenJavaScanner;
-import org.eclipse.jdt.internal.ui.text.java.JavaCodeScanner;
-import org.eclipse.jdt.internal.ui.text.javadoc.JavaDocScanner;
+import edu.berkeley.eduride.isa.ui.text.FastJavaPartitionScanner;
+import edu.berkeley.eduride.isa.ui.text.JavaColorManager;
+import edu.berkeley.eduride.isa.ui.text.JavaCommentScanner;
+import edu.berkeley.eduride.isa.ui.text.SingleTokenJavaScanner;
+import edu.berkeley.eduride.isa.ui.text.java.JavaCodeScanner;
+import edu.berkeley.eduride.isa.ui.text.javadoc.JavaDocScanner;
 
 
 /**

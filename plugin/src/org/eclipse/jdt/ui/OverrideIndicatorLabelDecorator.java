@@ -32,16 +32,16 @@ import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.NodeFinder;
 import org.eclipse.jdt.core.dom.SimpleName;
 
-import org.eclipse.jdt.internal.corext.dom.Bindings;
-import org.eclipse.jdt.internal.corext.util.JavaModelUtil;
-import org.eclipse.jdt.internal.corext.util.JdtFlags;
-import org.eclipse.jdt.internal.corext.util.MethodOverrideTester;
-import org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry;
-import org.eclipse.jdt.internal.ui.viewsupport.ImageImageDescriptor;
+import edu.berkeley.eduride.isa.corext.dom.Bindings;
+import edu.berkeley.eduride.isa.corext.util.JavaModelUtil;
+import edu.berkeley.eduride.isa.corext.util.JdtFlags;
+import edu.berkeley.eduride.isa.corext.util.MethodOverrideTester;
+import edu.berkeley.eduride.isa.corext.util.SuperTypeHierarchyCache;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.viewsupport.ImageDescriptorRegistry;
+import edu.berkeley.eduride.isa.ui.viewsupport.ImageImageDescriptor;
 
 /**
  * LabelDecorator that decorates an method's image with override or implements overlays.

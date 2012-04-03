@@ -45,18 +45,18 @@ import org.eclipse.jdt.core.IPackageFragmentRoot;
 import org.eclipse.jdt.core.JavaConventions;
 import org.eclipse.jdt.core.JavaCore;
 
-import org.eclipse.jdt.internal.corext.util.JavaConventionsUtil;
-import org.eclipse.jdt.internal.corext.util.Messages;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.dialogs.StatusInfo;
-import org.eclipse.jdt.internal.ui.dialogs.TextFieldNavigationHandler;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.DialogField;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.IDialogFieldListener;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.LayoutUtil;
-import org.eclipse.jdt.internal.ui.wizards.dialogfields.StringDialogField;
+import edu.berkeley.eduride.isa.corext.util.JavaConventionsUtil;
+import edu.berkeley.eduride.isa.corext.util.Messages;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.dialogs.StatusInfo;
+import edu.berkeley.eduride.isa.ui.dialogs.TextFieldNavigationHandler;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.DialogField;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.IDialogFieldListener;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.LayoutUtil;
+import edu.berkeley.eduride.isa.ui.wizards.dialogfields.StringDialogField;
 
 /**
  * Wizard page to create a new package.

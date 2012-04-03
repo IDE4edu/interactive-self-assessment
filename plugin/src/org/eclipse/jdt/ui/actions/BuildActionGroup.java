@@ -35,8 +35,8 @@ import org.eclipse.jdt.core.IJavaProject;
 
 import org.eclipse.jdt.ui.IContextMenuConstants;
 
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.viewsupport.IRefreshable;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.viewsupport.IRefreshable;
 
 /**
  * Contributes all build related actions to the context menu and installs handlers for the

@@ -25,11 +25,11 @@ import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.template.java.SignatureUtil;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.javaeditor.EditorUtility;
-import org.eclipse.jdt.internal.ui.text.java.ContentAssistHistory.RHSHistory;
+import edu.berkeley.eduride.isa.corext.template.java.SignatureUtil;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.javaeditor.EditorUtility;
+import edu.berkeley.eduride.isa.ui.text.java.ContentAssistHistory.RHSHistory;
 
 /**
  * Describes the context of a content assist invocation in a Java editor.

@@ -41,21 +41,21 @@ import org.eclipse.jdt.core.IJavaProject;
 
 import org.eclipse.jdt.ui.JavaUI;
 
-import org.eclipse.jdt.internal.ui.IUIConstants;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.viewsupport.FilteredElementTreeSelectionDialog;
-import org.eclipse.jdt.internal.ui.wizards.NewWizardMessages;
-import org.eclipse.jdt.internal.ui.wizards.TypedElementSelectionValidator;
-import org.eclipse.jdt.internal.ui.wizards.TypedViewerFilter;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.ArchiveFileFilter;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.CPListElement;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerWizard;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.EditVariableEntryDialog;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.JavadocLocationDialog;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.MultipleFolderSelectionDialog;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog;
-import org.eclipse.jdt.internal.ui.wizards.buildpaths.SourceAttachmentDialog;
+import edu.berkeley.eduride.isa.ui.IUIConstants;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.viewsupport.FilteredElementTreeSelectionDialog;
+import edu.berkeley.eduride.isa.ui.wizards.NewWizardMessages;
+import edu.berkeley.eduride.isa.ui.wizards.TypedElementSelectionValidator;
+import edu.berkeley.eduride.isa.ui.wizards.TypedViewerFilter;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.ArchiveFileFilter;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.CPListElement;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.ClasspathContainerWizard;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.EditVariableEntryDialog;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.JavadocLocationDialog;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.MultipleFolderSelectionDialog;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.NewVariableEntryDialog;
+import edu.berkeley.eduride.isa.ui.wizards.buildpaths.SourceAttachmentDialog;
 
 /**
  * Class that gives access to dialogs used by the Java build path page to configure classpath entries

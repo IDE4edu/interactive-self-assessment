@@ -20,11 +20,11 @@ import org.eclipse.jface.text.ITextSelection;
 import org.eclipse.ui.IWorkbenchSite;
 import org.eclipse.ui.PlatformUI;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.javaeditor.JavaEditor;
-import org.eclipse.jdt.internal.ui.refactoring.RefactoringMessages;
-import org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction;
-import org.eclipse.jdt.internal.ui.refactoring.actions.RenameResourceAction;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaEditor;
+import edu.berkeley.eduride.isa.ui.refactoring.RefactoringMessages;
+import edu.berkeley.eduride.isa.ui.refactoring.actions.RenameJavaElementAction;
+import edu.berkeley.eduride.isa.ui.refactoring.actions.RenameResourceAction;
 
 /**
  * Renames a Java element or workbench resource.

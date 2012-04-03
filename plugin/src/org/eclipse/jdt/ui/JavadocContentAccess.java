@@ -23,10 +23,10 @@ import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.ITypeHierarchy;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.javadoc.JavaDocCommentReader;
-import org.eclipse.jdt.internal.corext.util.MethodOverrideTester;
 
-import org.eclipse.jdt.internal.ui.text.javadoc.JavaDoc2HTMLTextReader;
+import edu.berkeley.eduride.isa.corext.javadoc.JavaDocCommentReader;
+import edu.berkeley.eduride.isa.corext.util.MethodOverrideTester;
+import edu.berkeley.eduride.isa.ui.text.javadoc.JavaDoc2HTMLTextReader;
 
 /**
  * Helper needed to get the content of a Javadoc comment.

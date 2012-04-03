@@ -27,12 +27,12 @@ import org.eclipse.ui.actions.ActionGroup;
 
 import org.eclipse.jdt.ui.PreferenceConstants;
 
-import org.eclipse.jdt.internal.ui.IJavaHelpContextIds;
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.JavaPluginImages;
-import org.eclipse.jdt.internal.ui.actions.ActionMessages;
-import org.eclipse.jdt.internal.ui.viewsupport.MemberFilter;
-import org.eclipse.jdt.internal.ui.viewsupport.MemberFilterAction;
+import edu.berkeley.eduride.isa.ui.IJavaHelpContextIds;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.JavaPluginImages;
+import edu.berkeley.eduride.isa.ui.actions.ActionMessages;
+import edu.berkeley.eduride.isa.ui.viewsupport.MemberFilter;
+import edu.berkeley.eduride.isa.ui.viewsupport.MemberFilterAction;
 
 /**
  * Action Group that contributes filter buttons for a view parts showing

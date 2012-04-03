@@ -40,14 +40,14 @@ import org.eclipse.jdt.core.ITypeParameter;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.eclipse.jdt.internal.corext.util.Strings;
 
 import org.eclipse.jdt.launching.JavaRuntime;
 
-import org.eclipse.jdt.internal.ui.JavaUIMessages;
-import org.eclipse.jdt.internal.ui.packageview.ClassPathContainer;
-import org.eclipse.jdt.internal.ui.viewsupport.BasicElementLabels;
-import org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer;
+import edu.berkeley.eduride.isa.corext.util.Strings;
+import edu.berkeley.eduride.isa.ui.JavaUIMessages;
+import edu.berkeley.eduride.isa.ui.packageview.ClassPathContainer;
+import edu.berkeley.eduride.isa.ui.viewsupport.BasicElementLabels;
+import edu.berkeley.eduride.isa.ui.viewsupport.JavaElementLabelComposer;
 
 
 /**

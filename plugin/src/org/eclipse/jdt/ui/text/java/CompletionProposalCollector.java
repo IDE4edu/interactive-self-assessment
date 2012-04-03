@@ -40,27 +40,27 @@ import org.eclipse.jdt.core.Signature;
 import org.eclipse.jdt.core.compiler.IProblem;
 import org.eclipse.jdt.core.formatter.CodeFormatter;
 
-import org.eclipse.jdt.internal.corext.util.CodeFormatterUtil;
-import org.eclipse.jdt.internal.corext.util.TypeFilter;
 
-import org.eclipse.jdt.internal.ui.JavaPlugin;
-import org.eclipse.jdt.internal.ui.text.java.AnnotationAtttributeProposalInfo;
-import org.eclipse.jdt.internal.ui.text.java.AnonymousTypeCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.AnonymousTypeProposalInfo;
-import org.eclipse.jdt.internal.ui.text.java.FieldProposalInfo;
-import org.eclipse.jdt.internal.ui.text.java.GetterSetterCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.JavaCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.JavaFieldWithCastedReceiverCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.LazyJavaTypeCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.MethodDeclarationCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.MethodProposalInfo;
-import org.eclipse.jdt.internal.ui.text.java.OverrideCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.java.ProposalContextInformation;
-import org.eclipse.jdt.internal.ui.text.javadoc.JavadocInlineTagCompletionProposal;
-import org.eclipse.jdt.internal.ui.text.javadoc.JavadocLinkTypeCompletionProposal;
-import org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry;
+import edu.berkeley.eduride.isa.corext.util.CodeFormatterUtil;
+import edu.berkeley.eduride.isa.corext.util.TypeFilter;
+import edu.berkeley.eduride.isa.ui.JavaPlugin;
+import edu.berkeley.eduride.isa.ui.text.java.AnnotationAtttributeProposalInfo;
+import edu.berkeley.eduride.isa.ui.text.java.AnonymousTypeCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.AnonymousTypeProposalInfo;
+import edu.berkeley.eduride.isa.ui.text.java.FieldProposalInfo;
+import edu.berkeley.eduride.isa.ui.text.java.GetterSetterCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.JavaCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.JavaFieldWithCastedReceiverCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.JavaMethodCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.LazyJavaCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.LazyJavaTypeCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.MethodDeclarationCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.MethodProposalInfo;
+import edu.berkeley.eduride.isa.ui.text.java.OverrideCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.java.ProposalContextInformation;
+import edu.berkeley.eduride.isa.ui.text.javadoc.JavadocInlineTagCompletionProposal;
+import edu.berkeley.eduride.isa.ui.text.javadoc.JavadocLinkTypeCompletionProposal;
+import edu.berkeley.eduride.isa.ui.viewsupport.ImageDescriptorRegistry;
 
 /**
  * Java UI implementation of <code>CompletionRequestor</code>. Produces

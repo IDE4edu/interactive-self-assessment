@@ -25,7 +25,7 @@ import org.eclipse.jface.text.ITextSelection;
 
 import org.eclipse.ui.IWorkbenchSite;
 
-import org.eclipse.jdt.internal.ui.javaeditor.JavaTextSelection;
+import edu.berkeley.eduride.isa.ui.javaeditor.JavaTextSelection;
 
 /**
  * Action that dispatches the <code>IAction#run()</code> and the

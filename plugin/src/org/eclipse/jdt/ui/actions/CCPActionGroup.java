@@ -26,11 +26,11 @@ import org.eclipse.ui.navigator.ICommonMenuConstants;
 import org.eclipse.ui.part.Page;
 
 
-import org.eclipse.jdt.internal.ui.actions.CopyQualifiedNameAction;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.CopyToClipboardAction;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.CutAction;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction;
-import org.eclipse.jdt.internal.ui.refactoring.reorg.PasteAction;
+import edu.berkeley.eduride.isa.ui.actions.CopyQualifiedNameAction;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.CopyToClipboardAction;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.CutAction;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.DeleteAction;
+import edu.berkeley.eduride.isa.ui.refactoring.reorg.PasteAction;
 
 /**
  * Action group that adds the copy, cut, paste actions to a view part's context
