@@ -5,7 +5,7 @@
 
 <!ELEMENT filename (#PCDATA)>
 <!ELEMENT hidden (tag)>
-<!ELEMENT textarea (header,size?)>
+<!ELEMENT textarea (header,size)>
 <!ELEMENT textbox (header,start,end)>
 <!ELEMENT assertion (method,target,params?,message?)>
 <!ELEMENT test (junit*,target?)>
