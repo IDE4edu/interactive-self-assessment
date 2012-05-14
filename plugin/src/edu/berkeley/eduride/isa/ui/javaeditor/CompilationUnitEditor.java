@@ -432,7 +432,7 @@ public class CompilationUnitEditor extends JavaEditor implements IJavaReconcilin
 				default:
 					return;
 			}
-
+			
 			final ISourceViewer sourceViewer= getSourceViewer();
 			IDocument document= sourceViewer.getDocument();
 
@@ -441,7 +441,7 @@ public class CompilationUnitEditor extends JavaEditor implements IJavaReconcilin
 			final int length= selection.y;
 
 			try {
-				IRegion startLine= document.getLineInformationOfOffset(offset);
+				IRegion startLine= document.getLineInformationOfOffset(offset); //here?
 				IRegion endLine= document.getLineInformationOfOffset(offset + length);
 
 				JavaHeuristicScanner scanner= new JavaHeuristicScanner(document);
