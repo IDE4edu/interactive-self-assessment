@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            name="Interactive Self Assessment"
+            nameFilter="*.java"
+            class="edu.berkeley.eduride.isaplugin.propertyPage.isaPropertyPage"
+            id="edu.berkeley.eduride.isaplugin.propertyPage.isa">
+         <enabledWhen>
+            <instanceof
+                  value="org.eclipse.core.resources.IFile">
+            </instanceof>
+         </enabledWhen>
+      </page>
+   </extension>
+   <extension
+         id="edu.berkeley.eduride.isa.isamarker"
+         name="ISA marker"
+         point="org.eclipse.core.resources.markers">
+      <attribute
+            name="active">
+      </attribute>
+   </extension>
+   <extension
+         id="edu.berkeley.eduride.isa.markerField"
+         name="ISA field"
+         point="org.eclipse.core.resources.markers">
+      <persistent value="true"/> 
+      <super type="edu.berkeley.eduride.isa.isamarker"/>  
+   </extension>
+   <extension
+         id="edu.berkeley.eduride.isa.markerBoxStart"
+         name="ISA Box Start"
+         point="org.eclipse.core.resources.markers">
+      <persistent value="true"/> 
+      <super type="edu.berkeley.eduride.isa.isamarker"/>  
+   </extension>
+   <extension
+         id="edu.berkeley.eduride.isa.markerBoxEnd"
+         name="ISA Box End"
+         point="org.eclipse.core.resources.markers">
+      <persistent value="true"/> 
+      <super type="edu.berkeley.eduride.isa.isamarker"/>  
+   </extension>
+   <extension point="org.eclipse.ui.commands">
+      <category
+         name="ISA"
+         description="Commands related to interactive self assessments"
+         id="edu.berkeley.eduride.isa.commands.isa" />
+      <command
+            categoryId="edu.berkeley.eduride.isa.commands.isa"
+            defaultHandler="edu.berkeley.eduride.isaplugin.markers.AddSourceFieldHandler"
+            description="Add ISA field marker"
+            id="edu.berkeley.eduride.isa.addmarkerfield"
+            name="Add ISA Field"/>
+      <command
+            categoryId="edu.berkeley.eduride.isa.commands.isa"
+            defaultHandler="edu.berkeley.eduride.isaplugin.markers.AddSourceBoxStartHandler"
+            description="Add ISA Box start marker"
+            id="edu.berkeley.eduride.isa.addmarkerboxstart"
+            name="Add ISA Box Start"/>
+      <command
+            categoryId="edu.berkeley.eduride.isa.commands.isa"
+            defaultHandler="edu.berkeley.eduride.isaplugin.markers.AddSourceBoxEndHandler"
+            description="Add ISA Box end marker"
+            id="edu.berkeley.eduride.isaPlugin.markerboxend"
+            name="Add ISA Box End">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="edu.berkeley.eduride.isa.markerFieldAnnotation"
+            icon="icons/markerField.png"
+            includeOnPreferencePage="false">
+      </specification>
+      <specification
+            annotationType="edu.berkeley.eduride.isa.markerBoxStartAnnotation"
+            icon="icons/markerBoxStart.png"
+            includeOnPreferencePage="false">
+      </specification>
+      <specification
+            annotationType="edu.berkeley.eduride.isa.markerBoxEndAnnotation"
+            icon="icons/markerBoxEnd.png"
+            includeOnPreferencePage="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+      	    super="org.eclipse.ui.workbench.texteditor.warning"
+      	    markerType="edu.berkeley.eduride.isa.markerField"
+            name="edu.berkeley.eduride.isa.markerFieldAnnotation"
+            markerSeverity="1">
+      </type>
+      <type
+            super="org.eclipse.ui.workbench.texteditor.warning"
+            markerType="edu.berkeley.eduride.isa.markerBoxStart"
+            name="edu.berkeley.eduride.isa.markerBoxStartAnnotation"
+            markerSeverity="1">
+      </type>
+      <type
+            super="org.eclipse.ui.workbench.texteditor.warning"
+            markerType="edu.berkeley.eduride.isa.markerBoxEnd"
+            name="edu.berkeley.eduride.isa.markerBoxEndAnnotation"
+            markerSeverity="1">
+      </type>
+   </extension>
+
+</plugin>
